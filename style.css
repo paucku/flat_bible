@@ -1,0 +1,4 @@
+ol > li {display: inline; counter-increment: verse}
+ol {text-indent: 5mm;}
+h2 {counter-reset: verse}
+ol>li:before {content: counter(verse); vertical-align: super; font-size: xx-small; color: red}
